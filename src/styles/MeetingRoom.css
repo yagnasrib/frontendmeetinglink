@@ -1,0 +1,62 @@
+/* MeetingRoom.css */
+.meeting-room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background-color: #f5f5f5;
+}
+
+.video-container {
+  width: 80%;
+  height: 50%;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.video-feed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls, .additional-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between the icons */
+  margin-bottom: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon.leave-icon {
+  color: red;
+}
+
+.join-meet-container {
+  margin-bottom: 20px;
+}
+
+.join-meet-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-meet-button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Add custom styles for the raised hand state */
+.icon.raised-hand {
+  color: blue;
+}

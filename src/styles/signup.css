@@ -1,0 +1,61 @@
+/* App.css */
+body {
+    font-family: Times New Roman (serif);
+    background-color:lightblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   
+  .signup-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+   
+  .signup-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:black;
+  }
+   
+  .form-group {
+    margin-bottom: 15px;
+  }
+   
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:black;
+  }
+   
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+   
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color:blue;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .signup-button:hover {
+    background-color: #198eab;
+  }

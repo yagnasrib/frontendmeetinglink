@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1717cc;
+}
+ 
+.container {
+    text-align: center;
+    background: hsl(247, 83%, 41%);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Increased for desktop view */
+    width: 140%;
+}
+ 
+h1 {
+    color: #1c0e9c;
+    margin-bottom: 30px; /* Increased margin for spacing */
+    font-size: 2.5rem; /* Larger font for desktop */
+}
+ 
+input {
+    width: calc(100% - 40px); /* Wider inputs */
+    padding: 15px; /* Increased padding for better UX */
+    margin: 15px 0; /* Larger margin between elements */
+    border: 1px solid white(256, 81%, 41%);
+    border-radius: 5px;
+    font-size: 1.1rem; /* Larger text */
+}
+ 
+button {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin: 15px 0;
+    border: none;
+    background-color: hsl(247, 100%, 50%);
+    color: white;
+    font-size: 1.2rem; /* Larger button text */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+ 
+button:hover {
+    background-color: hsl(253, 69%, 47%);
+}
+ 
+/* Media query for larger desktops */
+@media (min-width: 1200px) {
+    .container {
+        padding: 50px;
+        max-width: 800px; /* Even larger width for larger screens */
+    }
+ 
+    h1 {
+        font-size: 3rem; /* Bigger text for titles */
+    }
+ 
+    input, button {
+        font-size: 1.3rem; /* More prominent text */
+    }
+}
